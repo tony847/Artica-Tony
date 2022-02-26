@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 70%;
+    margin:auto;
+}
+.tony{
+    overflow: hidden;
+}
+.logo{
+    display: inline-block;
+    width: 40%; 
+}
+.logo a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'molle', cursive;
+    line-height: 50px;
+    color: black;
+}
+.menuarea{
+    float: right;
+   
+}.menuarea ul{
+    list-style: none;
+}
+.menuarea ul li{
+    display: inline-block;
+}
+.menuarea ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.menuarea ul li a:hover{
+    background-color: black;
+    color: red;
+    transition: 1s;
+    padding: 5px 10px;
+}
+
+
+.tmik{
+    background: #546279;
+    height: 150px;
+}
+.Solo{
+    background-color: #222c40;
+    text-align: center;
+}
+.Solo h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'molle', cursive;
+    font-size: 50px;
+}
+.golla{
+    margin: auto;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    border: 2px solid #fff;
+    position: relative;
+
+}
+
+.golla::before{
+    content: "";
+    background: #ffffff;
+    height: 2px;
+    position: absolute;
+    width: 300px;
+    right: 16px;
+    top: 7px;
+}
+
+.golla::after{
+    content: "";
+    background: #ffffff;
+    height: 2px;
+    position: absolute;
+    width: 300px;
+    left: 16px;
+    top: 7px;
+}
+.Solo p{
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.Solo a{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.pur{
+    margin-bottom: 50px;
+}
